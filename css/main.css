@@ -1,0 +1,327 @@
+/* Experince Section Starts  */
+/* .experience-section{
+    background-color: #342826;
+} */
+.left-side p{
+    color: white;
+    font-size: 12px;
+    padding-bottom: 7px;
+}
+.left-side h1{
+    color: white;
+    font-weight: bolder;
+    padding-bottom: 15px;
+
+}
+.left-side h3{
+    color: white;
+    font-size: 12px;
+    padding-bottom: 7px;
+}
+.upper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    
+}
+.exp-left{
+    color: white;
+    font-size: 10px;
+    padding-bottom: 5px;
+
+}
+.exp-right{
+    color: white;
+    font-size: 10px;
+    padding-bottom: 5px;
+
+}
+.down{
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    border-bottom: 1px solid white;
+    padding-bottom:15px ;
+    letter-spacing: 2px;
+
+}
+.experience-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* Awards section starts  */
+
+.award-title h1{
+    margin-top: 30px;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+
+}
+.award-title p{
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+    font-size: 10px;
+}
+.name{
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+.year{
+    color: white;
+    font-size: 8px;
+    font-weight: bold;
+}
+.award-name-year{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.details p{
+    padding-top: 8px;
+    color: white;
+    font-size: 10px;
+}
+.award-description{
+    margin-top: 40px;
+    padding: 30px 25px;
+    border: 1px solid black;
+    background-color: black;
+}
+
+/* portfolio section starts */
+.porfolio-section{
+    margin-top: 120px;
+}
+.porfolio-title h1{
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+.porfolio-title p{
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}
+.option button{
+    color: white;
+    background-color: black;
+    width: 140px;
+    height: 35px;
+    padding-bottom: 25px;
+
+
+
+}
+.options {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 280px;
+}
+#web button{
+    background-color: #FD6F00;
+}
+/* #graphic button{
+    padding: 25px 25px 15px 15px;
+} */
+
+.project{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 200px;
+}
+.text-t h3{
+    color: white;
+    font-size: 10px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    
+
+}
+
+.text-t h1{
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 10px 0px;
+}
+.text-t p{
+    color: #ffffff	;
+    font-size: 8px;
+    
+
+}
+.text-t{
+    padding-right: 90px;
+}
+.image img{
+    width: 300px;
+}
+/* Portfolio Section Ends  */
+
+/* Contact Secction starts  */
+.contact-title{
+    margin-top: 70px;
+}
+.contact-title h2{
+    color: white;
+    font-size: 10px;
+    text-align: center;
+}
+.contact-title h1{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+/* Form starts  */
+.project-text{
+    margin: 0 0 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+.form-body{
+    background-color: #232323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.form-container {
+    background-color: #4e2f1e;
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-group label, .input-container label {
+    color: #dcdcdc;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea,
+.form-group input[type="file"],
+.input-container input[type="text"],
+.input-container input[type="email"] {
+    background-color: #2b1e14;
+    border: none;
+    border-bottom: 2px solid #dcdcdc;
+    padding: 10px 0;
+    color: white;
+    font-size: 14px;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+.file-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: #ff7f00;
+    color: white;
+    border: none;
+    padding: 10px;
+    
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+    align-self: flex-start;
+}
+
+button:hover {
+    background-color: #e56e00;
+}
+
+/* End of contact  */
+/* Footer starts  */
+
+ .footer-container{
+    padding: 50px 100px;
+ }
+ #logo h1{
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
+
+ }
+ .f-opt{
+    color: white;
+    font-size: 12px;
+ }
+ .footer-options{
+    display: flex;
+    justify-content: space-between;
+    padding: 23px 260px;
+ }
+ .link-images{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 470px;
+ }
+
+
+ .last-footer{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+
+ }
+ .footer-logo{
+    color:#FD6F00 ;
+    font-weight: bold;
+ }
+
+
+
+
+
+
+
+
+
+
+

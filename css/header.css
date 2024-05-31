@@ -1,0 +1,166 @@
+
+.container{
+    height: 100vh;
+    background-color: #1E1E1E;
+}
+.nav-container{
+    padding: 50px 100px;
+
+}
+
+
+.logo{
+    color:#FD6F00 ;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.left-nav-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-items{
+    color: white;
+    font-size: 10px;
+}
+.cv-button button{
+    background-color: #FD6F00;
+    border: 1px solid #FD6F00;
+    width:130px ;
+    height: 40px;
+    margin-bottom: 17px;
+
+}
+/* Banner section starts  */
+.banner-section{
+    padding: 50px 100px;
+    
+
+}
+.banner-left-right{
+    display: flex;
+    justify-content: space-between;
+
+}
+.icon{
+    /* width: 22px;
+    height: 20px; */
+    color: #FD6F00;
+    width: 1em;
+     height: 1em;
+}
+.banner-desc p{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+.extra-para{
+    color: white;
+    font-size: 10px;
+}
+.skill{
+    padding: 13px 0px;
+    color: white;
+}
+.icon-arrow{
+    width: 22px;
+    height: 20px;
+    color: white;
+   
+    
+}
+.banner-img button{
+    background-color: #FD6F00;
+    color: white;
+    font-size: 14px;
+    padding: 5px 3px;
+    border: 1px solid #FD6F00;
+    border-radius: 15px;
+    height: 39px;
+    margin-left: 5px;
+    margin-bottom: 14px;
+}
+.hire{
+    color: white;
+    font-size: 14px;
+    padding-right: 5px;
+}
+.banner-img{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 165px;
+    height: 50px ;
+    background-color: transparent;  
+    
+}
+.links{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 18px 0px;
+}
+.banner-profile-image img{
+    width: 450px;
+    height: 350px;
+    position: relative;
+    top: -50px;
+    
+}
+.about h1{
+    color: white;
+    font-weight: bolder;
+
+}
+.about h2{
+    color: whitesmoke;
+    font-size: 11px;
+    padding-top: 10px;
+}
+.star-icon{
+    display: flex;
+    fill: #FD6F00;
+    padding-left: 20px;
+}
+.experience{
+    display: flex;
+    flex-direction: column;
+}
+.banner-down{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.text h1{
+    color: white;
+    font-weight: bolder;
+    
+}
+.text p{
+    
+    color: white;
+    font-size: 12px;
+    padding-left: 40px;
+}
+/* Header Section Ends  */
+
+
+@media only screen and (min-width: 200px) and (max-width: 576) {
+    .nav{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
